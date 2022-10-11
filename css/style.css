@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651)), url(../img/bunner.jpeg);
+    height: 110vh;
+}
+
+#output {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#inp {
+    border-radius: 25px 0 0 25px;
+    border: 2px solid rgb(33, 147, 1);
+    width: 250px;
+    height: 51px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    transition: 0.5s;
+    background-image: url(../img/bunner.jpeg);
+}
+
+#inp:hover {
+    background-color: rgb(202, 202, 33);
+    font-size: 21px;
+}
+
+#inp::placeholder {
+    color: white;
+}
+
+#btn {
+    border-radius: 0 25px 25px 0;
+    border: 2px solid rgb(33, 147, 1);
+    color: white;
+    width: 100px;
+    height: 57px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+    background-image: url(../img/bunner.jpeg);
+}
+
+#btn:hover {
+    background-color: rgb(202, 202, 33);
+    font-size: 18px;
+}
+
+#select {
+    border: 2px solid rgb(33, 147, 1);
+    width: 180px;
+    height: 57px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.5s;
+    background-image: url(../img/bunner.jpeg);
+    color: white;
+}
+
+#select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+#select::-ms-expand {
+    display: none;
+}
+
+#select:hover {
+    background-color: rgb(202, 202, 33);
+    font-size: 19px;
+}
